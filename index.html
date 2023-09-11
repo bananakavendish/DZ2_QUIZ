@@ -15,17 +15,17 @@
         </div>
         <nav class="menu">
           <ul class="menu__list">
-            <li>Главная</li>
-            <li>Игры</li>
-            <li>Отзывы</li>
+            <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Игры</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li></li>
           </ul>
         </nav>
-        <contacts>
-          <div class="phone">
+        <addres class="address">
+          <div class="address__phone">
             <a href="tel:+78007003030">8 800 700 30 30</a>
           </div>
-          <div class="schedule">График работы</div>
-        </contacts>
+          <div class="address__schedule">График работы</div>
+        </addres>
       </header>
       <main class="main">
         <section class="primary">
@@ -160,14 +160,16 @@
         </section>
         <section class="about">
           <img src="" alt="Картинка о нас" class="about_img" />
-          <h2 class="about__title">О&nbsp;нас</h2>
-          <p class="about__text">
-            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-            сгенерировать несколько абзацев более менее осмысленного текста рыбы
-            на&nbsp;русском языке, а&nbsp;начинающему оратору отточить навык
-            публичных выступлений в&nbsp;домашних условиях.
-          </p>
-          <button class="about__button">Подробнее</button>
+          <div class="about__description">
+            <h2 class="about__title">О&nbsp;нас</h2>
+            <p class="about__text">
+              Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+              сгенерировать несколько абзацев более менее осмысленного текста рыбы
+              на&nbsp;русском языке, а&nbsp;начинающему оратору отточить навык
+              публичных выступлений в&nbsp;домашних условиях.
+            </p>
+            <button class="about__button">Подробнее</button>
+          </div>
         </section>
         <footer class="footer">
           <div class="logo">
@@ -177,12 +179,12 @@
           </div>
           <nav class="menu">
             <ul class="menu__list">
-              <li>Главная</li>
-              <li>Игры</li>
-              <li>Отзывы</li>
+              <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Игры</a></li>
+              <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li></li>
             </ul>
           </nav>
-          <social class="social">
+          <div class="social">
             <ul class="social__list">
               <li class="social__link">
                 <a href="" class="social__link"
@@ -205,13 +207,13 @@
                 /></a>
               </li>
             </ul>
-          </social>
-          <contacts class="contacts">
-            <p class="contacts">Бесплатный звонок по&nbsp;России</p>
-            <div class="phone">
+          </div>
+          <address class="address">
+            <p class="address_call">Бесплатный звонок по&nbsp;России</p>
+            <div class="address__phone">
               <a href="tel:+78007003030">8 800 700 30 30</a>
             </div>
-          </contacts>
+          </address>
         </footer>
       </main>
     </div>
