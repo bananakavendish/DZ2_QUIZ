@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=a, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper main-page-wrapper">
+      <div class="container">
       <header class="header">
         <div class="logo">
-          <a href="#" class="logo__link"
-            ><img src="" alt="logo" class="logo__icon"
-          /></a>
+          <a href="#" class="logo__link">Quiz-box</a>
         </div>
         <nav class="menu">
           <ul class="menu__list">
@@ -33,70 +37,70 @@
             Интеллектуальный вечер для шумной компании
           </h1>
           <p class="primary__text">Игры на&nbsp;любой вкус</p>
-          <button class="primary__button">Подробнее</button>
+          <a class="primary__button" href="" target="_blank">Подробнее</a>
         </section>
         <section class="week-new">
           <div class="week-new__title">
             <h2 class="week-new__title-text">Новинки недели</h2>
-            <div class="week-new_title-icon"><img src="" alt="New" /></div>
+            <div class="week-new__title-icon"><img src="img/ic1.png" alt="New" /></div>
           </div>
           <ul class="week-new__list">
             <li class="week-new__card">
-              <img src="" alt="Музыкальная игра" class="week-new__img" />
+              <img src="img/music.png" alt="Музыкальная игра" class="week-new__img" />
               <div class="week-new__info">
                 <h3 class="week-new__name">Музыкальная игра</h3>
                 <div class="week-new__character">
-                  <img src="" alt="time" class="week-new__icon" />
-                  <h4 class="week-new__subtitle">90 минут</h4>
+                  <img src="./img/clock.png" alt="time" class="week-new__icon" />
+                  <h4 class="week-new__subtitle week-new__time">90 минут</h4>
                 </div>
                 <div class="week-new__character">
-                  <img src="" alt="question" class="week-new__icon" />
+                  <img src="./img/qa.png" alt="question" class="week-new__icon" />
                   <h4 class="week-new__subtitle">70 вопросов</h4>
                 </div>
                 <p class="week-new__text">
                   Равным образом постоянное обеспечение нашей деятельности
                   позволяет оценить значение систем массового участия.
                 </p>
+                <a class="card__button">Смотреть</a>
               </div>
-              <button class="card__button">Смотреть</button>
             </li>
             <li class="week-new__card">
-              <img src="" alt="Назад в&nbsp;90-е" class="week-new__img" />
+              <img src="./img/back.png" alt="Назад в&nbsp;90-е" class="week-new__img" />
               <div class="week-new__info">
                 <h3 class="week-new__name">Назад в&nbsp;90-е</h3>
                 <div class="week-new__character">
-                  <img src="" alt="time" class="week-new__icon" />
-                  <h4 class="week-new__subtitle">90 минут</h4>
+                  <img src="./img/clock.png" alt="time" class="week-new__icon" />
+                  <h4 class="week-new__subtitle week-new__time">90 минут</h4>
                 </div>
                 <div class="week-new__character">
-                  <img src="" alt="question" class="week-new__icon" />
+                  <img src="./img/qa.png" alt="question" class="week-new__icon" />
                   <h4 class="week-new__subtitle">70 вопросов</h4>
                 </div>
                 <p class="week-new__text">
                   Равным образом постоянное обеспечение нашей деятельности
                   позволяет оценить значение систем массового участия.
                 </p>
+                <a class="card__button card_button-full">Смотреть</a>
               </div>
-              <button class="card__button">Смотреть</button>
             </li>
             <li class="week-new__card">
-              <img src="" alt="IT-викторина" class="week-new__img" />
+              <img src="./img/quize.png" alt="IT-викторина" class="week-new__img" />
               <div class="week-new__info">
                 <h3 class="week-new__name">IT-викторина</h3>
                 <div class="week-new__character">
-                  <img src="" alt="time" class="week-new__icon" />
-                  <h4 class="week-new__subtitle">90 минут</h4>
+                  <img src="./img/clock.png" alt="time" class="week-new__icon" />
+                  <h4 class="week-new__subtitle week-new__time">90 минут</h4>
                 </div>
                 <div class="week-new__character">
-                  <img src="" alt="question" class="week-new__icon" />
+                  <img src="./img/qa.png" alt="question" class="week-new__icon" />
                   <h4 class="week-new__subtitle">70 вопросов</h4>
                 </div>
                 <p class="week-new__text">
                   Равным образом постоянное обеспечение нашей деятельности
                   позволяет оценить значение систем массового участия.
                 </p>
+                <a class="card__button">Смотреть</a>
               </div>
-              <button class="card__button">Смотреть</button>
             </li>
           </ul>
         </section>
@@ -105,7 +109,7 @@
           <ul class="game__list">
             <li class="game__card">
               <a href=""
-                ><img src="" alt="Новогодний квиз" class="game_img"
+                ><img src="./img/newyear.png" alt="Новогодний квиз" class="game__img"
               /></a>
               <div class="game__info">
                 <p class="game__date">1 января</p>
@@ -117,7 +121,7 @@
               </div>
             </li>
             <li class="game__card">
-              <a href=""><img src="" alt="Весенняя игра" class="game_img" /></a>
+              <a href=""><img src="./img/spring.png" alt="Весенняя игра" class="game__img" /></a>
               <div class="game__info">
                 <p class="game__date">8 марта</p>
                 <h3 class="game__card-title">Весенняя игра</h3>
@@ -129,37 +133,38 @@
             </li>
           </ul>
           <div class="paginator">
-            <div class="paginator_display">
-              Страница <span class="paginator_display-current">1</span> из
-              <span class="paginator_display-all"></span>7
+            <div class="paginator__display">
+              Страница <span class="paginator__display-current">1</span> из
+              <span class="paginator__display-all"></span>7
             </div>
+            <ul class="paginator__list">
+              <li class="paginator__item paginator__item--active">
+                <a href="" class="paginator__link">1</a>
+              </li>
+              <li class="paginator__item">
+                <a href="" class="paginator__link">2</a>
+              </li>
+              <li class="paginator__item">
+                <a href="" class="paginator__link">3</a>
+              </li>
+              <li class="paginator__item">
+                <a href="" class="paginator__link">4</a>
+              </li>
+              <li class="paginator__item">
+                <a href="" class="paginator__link">5</a>
+              </li>
+              <li class="paginator__item">
+                <a href="" class="paginator__link">6</a>
+              </li>
+              <li class="paginator__item">
+                <a href="" class="paginator__link">7</a>
+              </li>
+            </ul>
           </div>
-          <ul class="paginator_list">
-            <li class="paginator_item">
-              <a href="" class="paginator__link">1</a>
-            </li>
-            <li class="paginator_item">
-              <a href="" class="paginator__link">2</a>
-            </li>
-            <li class="paginator_item">
-              <a href="" class="paginator__link">3</a>
-            </li>
-            <li class="paginator_item">
-              <a href="" class="paginator__link">4</a>
-            </li>
-            <li class="paginator_item">
-              <a href="" class="paginator__link">5</a>
-            </li>
-            <li class="paginator_item">
-              <a href="" class="paginator__link">6</a>
-            </li>
-            <li class="paginator_item">
-              <a href="" class="paginator__link">7</a>
-            </li>
-          </ul>
+
         </section>
         <section class="about">
-          <img src="" alt="Картинка о нас" class="about_img" />
+          <img src="./img/about.png" alt="Картинка о нас" class="about_img" />
           <div class="about__description">
             <h2 class="about__title">О&nbsp;нас</h2>
             <p class="about__text">
@@ -168,16 +173,15 @@
               на&nbsp;русском языке, а&nbsp;начинающему оратору отточить навык
               публичных выступлений в&nbsp;домашних условиях.
             </p>
-            <button class="about__button">Подробнее</button>
+            <a class="about__button">Подробнее</a>
           </div>
         </section>
         <footer class="footer">
+          <div class="footer__border">
           <div class="logo">
-            <a href="#" class="logo__link"
-              ><img src="" alt="logo" class="logo__icon"
-            /></a>
+            <a href="#" class="logo__link">Quiz-box</a>
           </div>
-          <nav class="menu">
+          <nav class="menu__footer">
             <ul class="menu__list">
               <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
               <li class="menu__item"><a href="" class="menu__link">Игры</a></li>
@@ -188,34 +192,36 @@
             <ul class="social__list">
               <li class="social__link">
                 <a href="" class="social__link"
-                  ><img src="" alt="tg" class="social__img"
+                  ><img src="./img/tg.png" alt="tg" class="social__img"
                 /></a>
               </li>
               <li class="social__link">
                 <a href="" class="social__link"
-                  ><img src="" alt="vk" class="social__img"
+                  ><img src="./img/vk.png" alt="vk" class="social__img"
                 /></a>
               </li>
               <li class="social__link">
                 <a href="" class="social__link"
-                  ><img src="" alt="ok" class="social__img"
+                  ><img src="./img/f.png" alt="ok" class="social__img"
                 /></a>
               </li>
               <li class="social__link">
                 <a href="" class="social__link"
-                  ><img src="" alt="youtube" class="social__img"
+                  ><img src="./img/in.png" alt="youtube" class="social__img"
                 /></a>
               </li>
             </ul>
           </div>
-          <address class="address">
-            <p class="address_call">Бесплатный звонок по&nbsp;России</p>
+          <div class="address">
+            <p class="address__call">Бесплатный звонок по&nbsp;России</p>
             <div class="address__phone">
               <a href="tel:+78007003030">8 800 700 30 30</a>
             </div>
-          </address>
+          </div>
+        </div>
         </footer>
       </main>
+    </div>
     </div>
   </body>
 </html>
