@@ -1,0 +1,243 @@
+.primary {
+
+  width: 60%;
+  margin-top: 10rem;
+}
+.primary__title {
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 1.3;
+}
+@media (max-width: 740px) {
+  .primary__title {
+    font-size: 3rem;
+  }
+  .primary {
+    width: 80%;
+    margin: 0;
+    margin-top: 5rem;
+  }
+}
+@media (max-width: 600px) {
+  .primary__title {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .primary__title {
+    font-size: 2rem;
+  }
+}
+.primary__text {
+  font-size: 21px;
+  margin-bottom: 4.75rem;
+}
+.primary__button, .main__button {
+  background: #8f00ff;
+  border: none;
+  padding: 18px 40px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+}
+.primary__button:hover {
+  background: #741bba;
+}
+.week-new {
+  margin-top: 12rem;
+}
+.week-new__title {
+  font-size: 2.25rem;
+  line-height: 1.1;
+  font-weight: 700;
+  display: flex;
+}
+.week-new__title-text {
+  margin-right: 20px;
+}
+.week-new__list {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.week-new__card {
+  min-height: 449px;
+  background: #ffffff;
+  border-radius: 5px;
+  max-width: 21rem;
+  overflow: hidden;
+  margin: 20px 5px 0 5px;
+}
+.week-new__img {
+  min-height: 144px;
+  margin-bottom: 30px;
+}
+
+.week-new__info {
+  color: black;
+  padding: 0 20px;
+}
+.week-new__name {
+  font-size: 24px;
+  font-weight: 700;
+}
+.week-new__character {
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  margin: 20px 0 20px 0;
+}
+.week-new__icon {
+  display: inline-block;
+}
+.week-new__subtitle {
+  display: inline-block;
+  margin-left: 10px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 26px;
+  vertical-align: top;
+}
+.week-new__time {
+  margin-right: 40px;
+}
+.week-new__text {
+  font-size: 14px;
+}
+.card__button {
+  color: #8f00ff;
+  display: inline-block;
+  padding: 18px 30px;
+  border: #8f00ff 1px solid;
+  border-radius: 5px;
+  background: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 24px 0 24px 0;
+}
+
+.card_button-full {
+  color: #fff;
+  border-radius: 5px;
+  background: #8f00ff;
+}
+.card__button:hover {
+  background: #741bba;
+  color: #fff;
+}
+.game {
+  margin-top: 20rem;
+}
+.game__title {
+  margin-bottom: 3rem;
+}
+.game__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.game__card {
+  max-width: 33rem;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+.game_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.game__info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 17px 30px;
+}
+.game__date {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.game__card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.paginator {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.paginator__display {
+  width: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+.paginator__list {
+  display: flex;
+}
+.paginator__item {
+  vertical-align: middle;
+}
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
+.paginator__item--active .paginator__link {
+  background: #8f00ff;
+  color: #fff;
+}
+.paginator__link:hover {
+  background: #8f00ff;
+  color: #fff;
+}
+.about {
+  display: flex;
+  margin-top: 124px;
+}
+.about_img {
+  vertical-align: top;
+  max-width: 30rem;
+  height: 20%;
+  overflow: hidden;
+}
+.about__description {
+  background: linear-gradient(71deg, #8f00ff 0%, #148cff 100%), #212121;
+  padding: 4.37rem 5rem;
+  max-width: 49rem;
+  vertical-align: top;
+  margin-left: -160px;
+  margin-top: 100px;
+}
+.about__text {
+  margin-top: 37px;
+  max-width: 28rem;
+}
+.about__button {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 18px 40px;
+  border: #ffffff 1px solid;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+.about__button:hover {
+  color: #8f00ff;
+  background-color: #fff;
+}

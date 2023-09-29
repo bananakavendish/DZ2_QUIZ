@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem 0 0 0;
+  width: 100%;
+}
+.logo {
+  padding-right: 10px;
+}
+.logo__link {
+  background-color: #17191c;
+  font-size: 36px;
+  background-image: linear-gradient(88deg, #8f00ff -2.44%, #00a3ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.menu {
+  line-height: 55px;
+}
+.address {
+  right: 0px;
+}
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  width: 12.5rem;
+}
+.menu__item {
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__link:hover {
+  color: #8f00ff;
+}
+.address__phone {
+  font-size: 1.75rem;
+  text-decoration: none;
+}
+.address__schedule {
+  font-size: 13px;
+  text-align: right;
+  text-decoration: underline;
+}
+.title {
+  font-size: 3.75rem;
+  margin-top: 5rem;
+}
+.breadcrumb__list {
+  display: flex;
+}
+.breadcrumb__item {
+  margin-top: 5.0rem;
+  font-size: 13px;
+  color: #9A9A9A;
+  text-decoration: underline;
+}
+.breadcrumb__active {
+  font-weight: bold;
+}
