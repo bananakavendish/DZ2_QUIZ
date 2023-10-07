@@ -46,15 +46,21 @@ button {
   margin: 0 auto;
   padding: 0 2rem 0 2rem;
 }
-.services-wrapper {
+.services-wrapper,
+.reviews-wrapper {
   background: url("./img/bg.png") center top no-repeat;
 }
-.services-wrapper {
+.services-wrapper,
+.reviews-wrapper {
   background-color: #ffffff;
 }
-.footer__wrapper {
+.footer__wrapper,
+.banner__wrapper {
   background-color: #17191c;
 }
-.partener__wrapper {
-  background-color: #F4F5F5;
+.partener__wrapper, .form__wrapper {
+  background-color: #f4f5f5;
+}
+.main__rev {
+  color: #000;
 }
