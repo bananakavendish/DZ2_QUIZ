@@ -44,6 +44,30 @@
   text-align: right;
   text-decoration: underline;
 }
+.triangle {
+  position: relative;
+  top: 0;
+  left: 140px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #ededed;
+  width: 20px;
+}
+.rectangle {
+  background: #ededed;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  color: #000000;
+}
+.adreess_popup {
+  display: none;
+}
+.address__schedule:hover ~ .adreess_popup {
+  display: block;
+  position: absolute;
+  width: 180px;
+}
+
 .title {
   font-size: 3.75rem;
   margin-top: 5rem;
@@ -52,9 +76,9 @@
   display: flex;
 }
 .breadcrumb__item {
-  margin-top: 5.0rem;
+  margin-top: 5rem;
   font-size: 13px;
-  color: #9A9A9A;
+  color: #9a9a9a;
   text-decoration: underline;
 }
 .breadcrumb__active {
