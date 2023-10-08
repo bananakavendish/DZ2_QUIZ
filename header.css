@@ -59,15 +59,15 @@
   position: absolute;
   color: #000000;
 }
-.adreess_popup {
+
+.adreess__popup {
   display: none;
 }
-.address__schedule:hover ~ .adreess_popup {
+.popup:hover .adreess__popup {
   display: block;
   position: absolute;
   width: 180px;
 }
-
 .title {
   font-size: 3.75rem;
   margin-top: 5rem;
