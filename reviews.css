@@ -13,7 +13,6 @@
   line-height: 8rem;
 }
 
-
 @media (max-width: 580px) {
   .main__rev-list {
     column-count: 1;
@@ -148,8 +147,15 @@
   padding-bottom: 40px;
 }
 .clear__button {
-  background-color: #2b2b2b;
+  background-color: #8e8e8e;
 }
 .btn {
   margin-left: 20px;
+  color: #fff;
+}
+.clear__button:hover {
+  background-color: #2b2b2b;
+}
+.submit__btn:hover {
+  background-color: #741bba;
 }

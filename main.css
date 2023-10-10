@@ -1,5 +1,4 @@
 .primary {
-
   width: 60%;
   margin-top: 10rem;
 }
@@ -31,8 +30,10 @@
 .primary__text {
   font-size: 21px;
   margin-bottom: 4.75rem;
+  margin-top: 20px;
 }
-.primary__button, .main__button {
+.primary__button,
+.main__button {
   background: #8f00ff;
   border: none;
   padding: 18px 40px;
